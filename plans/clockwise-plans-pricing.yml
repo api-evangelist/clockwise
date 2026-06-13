@@ -1,0 +1,86 @@
+name: Clockwise Plans and Pricing
+description: >-
+  Pricing plans for the Clockwise AI calendar optimization platform. Clockwise
+  offered four tiers ranging from a free individual plan to enterprise with
+  custom pricing. The platform was acquired by Salesforce and shut down on
+  March 27, 2026.
+specificationVersion: "0.1"
+plans:
+  - name: Free
+    description: >-
+      Free plan for individuals with basic AI calendar optimization features
+      including smart scheduling, lunch holds, travel time holds, personal
+      calendar sync, and automatic event color coding.
+    price: 0.00
+    currency: USD
+    unit: user/month
+    billing: monthly
+    features:
+      - Smart scheduling
+      - Lunch holds
+      - Travel time holds
+      - Personal calendar sync
+      - Automatic event color coding
+      - Google Calendar integration
+    limits:
+      users: 1
+      apiAccess: false
+  - name: Teams
+    description: >-
+      Teams plan for small to medium teams with focus time protection, meeting
+      time optimization, external scheduling links, and availability management.
+      Billed monthly at $7.75/user or annually at $6.75/user/month.
+    price: 6.75
+    currency: USD
+    unit: user/month
+    billing: annual
+    priceMonthly: 7.75
+    features:
+      - Everything in Free
+      - Focus time blocks (protected deep work time)
+      - Meeting time optimization
+      - External scheduling links (Clockwise Links)
+      - Availability and Focus Time balance controls
+      - Team calendar coordination
+      - Slack integration
+    limits:
+      apiAccess: limited
+  - name: Business
+    description: >-
+      Business plan for larger organizations requiring analytics, administrative
+      controls, and advanced meeting management. Available on annual billing
+      only at $11.50/user/month.
+    price: 11.50
+    currency: USD
+    unit: user/month
+    billing: annual
+    features:
+      - Everything in Teams
+      - Meeting load analytics
+      - Administrative controls and policies
+      - Custom workshops and onboarding
+      - Group scheduling links
+      - Priority support
+    limits:
+      apiAccess: true
+  - name: Enterprise
+    description: >-
+      Enterprise plan for large organizations requiring SCIM provisioning,
+      custom data processing agreements, SSO, and dedicated support. Custom
+      pricing negotiated directly with Clockwise sales.
+    price: 0.00
+    currency: USD
+    unit: user/month
+    billing: custom
+    features:
+      - Everything in Business
+      - SCIM user provisioning (Okta integration)
+      - Single Sign-On (SSO)
+      - Custom data processing agreement (DPA)
+      - Dedicated customer success manager
+      - Guaranteed SLA support
+      - Custom API access
+      - Enterprise security controls
+    limits:
+      apiAccess: true
+      customRateLimits: true

@@ -1,0 +1,70 @@
+name: Clockwise API Rate Limits
+description: >-
+  Rate limiting policies for the Clockwise REST API. The Clockwise API
+  enforced rate limits to ensure platform stability and fair usage across
+  all integrations. Enterprise customers could negotiate custom limits.
+  Clockwise shut down on March 27, 2026 following acquisition by Salesforce.
+specificationVersion: "0.1"
+rateLimits:
+  - name: Default API Rate Limit
+    description: >-
+      Standard rate limit applied to all authenticated API requests. Limits
+      are enforced per API key or OAuth token. Exceeding the limit returns
+      an HTTP 429 Too Many Requests response with a Retry-After header.
+    scope: per-api-key
+    limit: 1000
+    period: hour
+    unit: requests
+    headers:
+      - name: X-RateLimit-Limit
+        description: Maximum number of requests allowed per period
+      - name: X-RateLimit-Remaining
+        description: Number of requests remaining in the current period
+      - name: X-RateLimit-Reset
+        description: Unix timestamp when the rate limit window resets
+      - name: Retry-After
+        description: Seconds to wait before retrying after a 429 response
+    statusCode: 429
+    plans:
+      - Teams
+      - Business
+  - name: Enterprise Custom Rate Limit
+    description: >-
+      Enterprise customers could negotiate custom rate limits based on their
+      specific integration needs and usage patterns. Custom limits were
+      defined in the enterprise service agreement.
+    scope: per-api-key
+    limit: custom
+    period: hour
+    unit: requests
+    plans:
+      - Enterprise
+  - name: OAuth Authentication Limit
+    description: >-
+      Rate limit for OAuth token generation and refresh requests. Clockwise
+      used Google OAuth for authentication and had limits on token operations
+      to prevent abuse.
+    scope: per-client-id
+    limit: 100
+    period: hour
+    unit: requests
+    endpoint: /oauth/token
+authentication:
+  - type: OAuth2
+    description: >-
+      Clockwise used Google OAuth 2.0 for user authentication. API integrations
+      required OAuth tokens scoped to the requesting user's Google Calendar
+      permissions.
+    flow: authorization_code
+    scopes:
+      - calendar.read
+      - calendar.write
+      - focus_time.read
+      - focus_time.write
+      - scheduling_links.read
+      - scheduling_links.write
+  - type: SCIM
+    description: >-
+      Enterprise SCIM provisioning for user management via identity providers
+      such as Okta. Used for managing Clockwise licenses at scale.
+    standard: SCIM 2.0

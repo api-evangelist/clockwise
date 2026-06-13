@@ -1,0 +1,71 @@
+name: Clockwise
+description: >-
+  Clockwise was an AI-powered calendar optimization platform that helped
+  individuals, teams, and organizations protect focus time, reduce meeting
+  overload, and coordinate scheduling intelligently. The platform provided
+  REST APIs for managing focus time blocks, meeting preferences, smart
+  scheduling links, and team calendar coordination. Clockwise was acquired
+  by Salesforce and shut down on March 27, 2026.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/apis.yml
+type: Index
+tags:
+  - Calendar
+  - AI
+  - Scheduling
+  - Focus Time
+  - Productivity
+  - Team Coordination
+  - Meeting Optimization
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+aid: clockwise
+apis:
+  - name: Clockwise REST API
+    description: >-
+      REST API for the Clockwise AI calendar optimization platform, providing
+      programmatic access to focus time management, meeting preferences,
+      scheduling links, and team calendar coordination features.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.getclockwise.com/developers
+    baseURL: https://api.getclockwise.com
+    tags:
+      - Calendar
+      - Focus Time
+      - Scheduling
+      - Meetings
+    properties:
+      - type: Documentation
+        url: https://support.getclockwise.com/hc/en-us
+      - type: OpenAPI
+        url: https://api.getclockwise.com/openapi.yml
+    contact:
+      - FN: Clockwise Support
+        email: support@getclockwise.com
+common:
+  - type: Website
+    url: https://www.getclockwise.com
+  - type: Documentation
+    url: https://support.getclockwise.com/hc/en-us
+  - type: GitHubOrg
+    url: https://github.com/clockwisehq
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/clockwise-inc.
+  - type: Blog
+    url: https://www.getclockwise.com/blog
+  - type: Pricing
+    url: https://www.getclockwise.com/pricing
+  - type: StatusPage
+    url: https://status.getclockwise.com/
+  - type: X
+    url: https://x.com/getclockwise
+  - type: Plans
+    url: plans/clockwise-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/clockwise-rate-limits.yml
+  - type: FinOps
+    url: finops/clockwise-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
