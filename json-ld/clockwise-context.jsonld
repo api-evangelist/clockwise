@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "clockwise": "https://www.getclockwise.com/",
+    "api": "https://api.getclockwise.com/",
+    "aid": "https://schema.org/identifier",
+    "FocusTime": "clockwise:FocusTime",
+    "Meeting": "clockwise:Meeting",
+    "SchedulingLink": "clockwise:SchedulingLink",
+    "CalendarEvent": "clockwise:CalendarEvent",
+    "Team": "clockwise:Team",
+    "MeetingPreference": "clockwise:MeetingPreference",
+    "focusBlocks": "clockwise:focusBlocks",
+    "autopilot": "clockwise:autopilot",
+    "holdEventId": "clockwise:holdEventId",
+    "calendarId": "clockwise:calendarId",
+    "userId": "clockwise:userId",
+    "teamId": "clockwise:teamId",
+    "startTime": "schema:startDate",
+    "endTime": "schema:endDate",
+    "duration": "schema:duration",
+    "title": "schema:name",
+    "description": "schema:description",
+    "status": "schema:status",
+    "timezone": "schema:timezone",
+    "organizationId": "clockwise:organizationId"
+  },
+  "@type": "APIReference",
+  "name": "Clockwise API Context",
+  "description": "JSON-LD context for the Clockwise AI calendar optimization API. Clockwise was acquired by Salesforce and shut down on March 27, 2026.",
+  "url": "https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/json-ld/clockwise-context.jsonld",
+  "provider": {
+    "@type": "Organization",
+    "name": "Clockwise",
+    "url": "https://www.getclockwise.com",
+    "foundingDate": "2016",
+    "dissolutionDate": "2026-03-27"
+  }
+}
