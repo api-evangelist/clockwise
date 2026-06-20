@@ -6,7 +6,7 @@ description: >-
   REST APIs for managing focus time blocks, meeting preferences, smart
   scheduling links, and team calendar coordination. Clockwise was acquired
   by Salesforce and shut down on March 27, 2026.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/apis.yml
 type: Index
 tags:
@@ -27,7 +27,7 @@ apis:
       REST API for the Clockwise AI calendar optimization platform, providing
       programmatic access to focus time management, meeting preferences,
       scheduling links, and team calendar coordination features.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.getclockwise.com/developers
     baseURL: https://api.getclockwise.com
     tags:
