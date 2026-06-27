@@ -1,18 +1,14 @@
 {
-  "blogUrl": "https://www.getclockwise.com/blog",
-  "lastFetched": "2026-06-13",
-  "note": "Clockwise was acquired by Salesforce and shut down on March 27, 2026. Blog content is no longer available.",
-  "posts": [],
   "repo": "clockwise",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/clockwise-inc.",
-      "feed_url": "https://www.linkedin.com/company/clockwise-inc.",
-      "title": "",
+      "source": "https://www.getclockwise.com/blog",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
+      "method": "agent-scrape"
     }
   ],
+  "fetched": "2026-06-27T12:32:37Z",
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "agent_pulled": "2026-06-27"
 }
