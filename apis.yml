@@ -3,6 +3,17 @@ description: Clockwise was an AI-powered calendar optimization platform that hel
   protect focus time, reduce meeting overload, and coordinate scheduling intelligently. The platform provided REST
   APIs for managing focus time blocks, meeting preferences, smart scheduling links, and team calendar coordination.
   Clockwise was acquired by Salesforce and shut down on March 27, 2026.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
