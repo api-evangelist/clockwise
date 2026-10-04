@@ -104,3 +104,5 @@ maintainers:
   email: kin@apievangelist.com
 x-parent: salesforce
 x-relationship: acquihire
+x-status: discontinued
+x-status-source: https://www.theregister.com/off-prem/2026/03/20/salesforce-acquihires-team-behind-clockwise-for-agentforce/5226782  # product shut down 2026-03-27; Salesforce hired the team, not the product (roadmap#638)
