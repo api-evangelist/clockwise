@@ -64,40 +64,78 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Clockwise was an AI-powered calendar optimization platform that helped individuals, teams, and organizations protect focus time, reduce meeting overload, and coordinate scheduling intelligently. The company was acquired by Salesforce and shut down on March 27, 2026.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-## Overview
+**Status:** discontinued
 
-Clockwise automatically created uninterrupted Focus Time in schedules, optimized meeting placement, and provided smart scheduling links. Over 15,000 organizations used Clockwise, including Twitter, Atlassian, Uber, and Asana.
+Clockwise was an AI-powered calendar optimization platform that helped individuals, teams, and organizations protect focus time, reduce meeting overload, and coordinate scheduling intelligently. The platform provided REST APIs for managing focus time blocks, meeting preferences, smart scheduling links, and team calendar coordination. Clockwise was acquired by Salesforce and shut down on March 27, 2026.
 
-## APIs
+**Areas:** Calendar · Artificial Intelligence · Scheduling · Focus Time · Productivity · Team Coordination · Meeting Optimization
 
-- **REST API** — Programmatic access to focus time management, meeting preferences, scheduling links, and team calendar coordination
-- **SCIM 2.0** — Enterprise user provisioning via Okta and other identity providers
-- **OAuth 2.0** — Google OAuth-based authentication for all API integrations
+## Clockwise on APIs.io (historical record)
 
-## Plans
+Everything profiled for Clockwise is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/clockwise/](https://apis.io/providers/clockwise/)** — or go straight to one of the APIs or properties below.
 
-| Plan | Price |
-|------|-------|
-| Free | $0/user/month |
-| Teams | $6.75/user/month (annual) |
-| Business | $11.50/user/month (annual) |
-| Enterprise | Custom pricing |
+### APIs (1)
 
-## Resources
+- [Clockwise REST API](https://apis.io/apis/clockwise/clockwise-rest-api/) — REST API for the Clockwise AI calendar optimization platform, providing programmatic access to focus time management, meeting preferences, scheduling links,…
 
-- [APIs.json](apis.yml)
-- [Plans & Pricing](plans/clockwise-plans-pricing.yml)
-- [Rate Limits](rate-limits/clockwise-rate-limits.yml)
-- [FinOps](finops/clockwise-finops.yml)
+### Published properties
 
-## Links
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Website: https://www.getclockwise.com
-- GitHub: https://github.com/clockwisehq
-- LinkedIn: https://www.linkedin.com/company/clockwise-inc.
-- X: https://x.com/getclockwise
-- Status: https://status.getclockwise.com/
+#### JSON-LD (1)
 
-**Note:** Clockwise was acquired by Salesforce and shut down on March 27, 2026.
+Linked-data contexts for the provider's vocabulary.
+
+- [Clockwise Context](https://apis.io/jsonld/clockwise/clockwise-context/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Clockwise Domain Security](https://apis.io/security/clockwise/clockwise-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Clockwise Plans Pricing](https://apis.io/plans/clockwise/clockwise-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Clockwise Rate Limits](https://apis.io/rate-limits/clockwise/clockwise-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Clockwise Finops](https://apis.io/finops/clockwise/clockwise-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.getclockwise.com)
+- [Documentation](https://support.getclockwise.com/hc/en-us)
+- [Pricing](https://www.getclockwise.com/pricing)
+- [Blog](https://www.getclockwise.com/blog)
+- [Status](https://status.getclockwise.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Clockwise: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/clockwise/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
